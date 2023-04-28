@@ -30,6 +30,10 @@ li {
   list-style: none;
 }
 
+body {
+  background: var(--light-color);
+}
+
 #logo {
   color: var(--primary-color);
   background-color: var(--light-color);
@@ -96,7 +100,7 @@ li {
 }
 
 .navbar-button:hover {
-  color: var(--darker-color);
+  color: var(--dark-color);
   background-color: var(--light-orange);
   border: 2px solid #fff;
 }
@@ -109,7 +113,7 @@ li {
 }
 
 .current-page {
-  color: var(--darker-color);
+  color: var(--dark-color);
   background-color: var(--light-orange);
   border: 2px solid #fff;
 }
@@ -128,16 +132,20 @@ li {
   justify-content: center;
   text-align: center;
   height: 100vh;
-  background: var(--light-color);
+  width: 100vw;
+  margin-top: 130px;
 }
 #hero .container {
+  display: flex;
   flex-direction: column;
-  max-width: 500px;
+  justify-content: center;
   background: var(--primary-color);
-  border-radius: 15px;
-  padding: 15px;
+  opacity: 0.8;
+  height: 100%;
+  width: 80%;
+  border-radius: 50px;
 }
 #hero .container p {
-  font-size: 14px;
+  font-size: 16px;
   padding-top: 15px;
 }/*# sourceMappingURL=style.css.map */
