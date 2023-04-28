@@ -136,4 +136,8 @@ li {
   background: var(--primary-color);
   border-radius: 15px;
   padding: 15px;
+}
+#hero .container p {
+  font-size: 14px;
+  padding-top: 15px;
 }/*# sourceMappingURL=style.css.map */
