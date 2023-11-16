@@ -1,0 +1,22 @@
+{
+  "name": "kindled",
+  "version": "1.0.0",
+  "description": "My Personal Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frostyfajita/kindled.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Jade K. VanAlsburg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frostyfajita/kindled/issues"
+  },
+  "homepage": "https://github.com/frostyfajita/kindled#readme"
+}
